@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Coming Soon;
+    color: #E1AD01;
+}
+
+body{
+    background-image: url(https://images.unsplash.com/photo-1497864149936-d3163f0c0f4b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80);
+}
+
+h1{
+    text-align: center;
+    padding: 2% 0 0% 0;
+    border-bottom: 3px solid #E1AD01;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 5vh;
+}
+
+div{
+    display: inline-block;
+    margin: 0 auto;
+    margin: 5% 0 0 3%;
+}
+
+div:nth-of-type(1){
+    height: 45vh;
+    width: 45vw;
+    background: url(../img/terminal.png) center/contain no-repeat;
+
+}
+
+div:nth-of-type(2){
+    height: 45vh;
+    width: 45vw;
+    background: url(../img/github.png) center/contain no-repeat;
+}
+
+div h2{
+    padding: 50% 0 0% 40%;
+    font-size: 5vh;
+}
+
+a{
+    text-decoration: none;
+}
